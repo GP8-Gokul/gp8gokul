@@ -30,7 +30,7 @@ const projects = [
         tools: ["React"," Tailwind CSS", "Framer Motion"],
         languages: ["JavaScript"],
         liveLink: "https://gp8gokul.vercel.app/",
-        githubLink: "https://github.com/GP8-Gokul/gp8-gokul",
+        githubLink: "https://github.com/GP8-Gokul/gp8gokul",
         image: "projects/gp8.png",
         type: "Web"
     },
