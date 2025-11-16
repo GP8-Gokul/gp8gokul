@@ -25,7 +25,7 @@ export default function HomePage() {
       "
     >
       <Navbar aboutRef={aboutRef} projectsRef={projectsRef} certificationsRef={certificationsRef} contactsRef={contactsRef} />
-      <Intro />
+      <Intro projectsRef={projectsRef} contactsRef={contactsRef} />
       <About aboutRef={aboutRef} />
       <Projects projectsRef={projectsRef} />
       <Certifications certificationsRef={certificationsRef} />

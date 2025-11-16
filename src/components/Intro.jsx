@@ -1,6 +1,11 @@
 import { motion } from 'framer-motion';
 
-export default function Intro() {
+
+const handleOnClick = (ref) => {
+  ref.current.scrollIntoView({ behavior: 'smooth' });
+};
+
+export default function Intro({ projectsRef, contactsRef }) {
     return (
         <section className="min-h-screen mx-1 md:mx-20 flex px-6 pt-2 relative z-10 cursor-default">
           <div className="grid  md:grid-cols-2 items-start mt-20 md:mt-30">
@@ -20,14 +25,14 @@ export default function Intro() {
 
               <div className="flex gap-4">
                 <motion.a 
-                  href="#projects" 
+                  onClick={()=>handleOnClick(projectsRef)}
                   className="px-8 py-4 bg-slate-800 text-white font-semibold rounded-lg"
                   whileHover={{ scale: 1.1 , backgroundColor: '#334155', borderColor: '#475569' }}
                 >
                   Explore Projects
                 </motion.a>
                 <motion.a 
-                  href="#profile" 
+                  onClick={()=>handleOnClick(contactsRef)}
                   className="px-8 py-4 border-2 border-slate-300 font-semibold rounded-lg"
                   whileHover={{ scale: 1.1 , borderColor: '#94a3b8' }}
                 >
