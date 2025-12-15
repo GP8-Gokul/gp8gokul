@@ -44,15 +44,6 @@ const projects = [
         type: "Mobile"
     },
     {
-        title: "Adaptive Content Generation System using AI",
-        description: "Developed an AI-powered system that analyzes user-provided reference content and generates relevant, adaptive text based on context.",
-        tools: ["Flutter", "Flask", "Firebase", "Scikit-Learn", "Transformers"],
-        languages: ["Dart", "Python"],
-        githubLink: "https://github.com/GP8-Gokul/Contextual-Content-Creation-Application",
-        image: 'projects/ccc.png',
-        type: "AI/ML"
-    },
-    {
         title: "Real-Time Chat Application using Socket.IO",
         description: "A simple real-time chat application built with Node.js, Socket.IO, and a Flutter frontend — inspired by WhatsApp.",
         tools: ["Node.js", "Express", "Socket.IO", "Flutter", "MongoDB"],
