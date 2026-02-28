@@ -104,14 +104,6 @@ const certificatesData = [
     hasVerify: false
   },
   {
-    name: "GATE 2025 - Data Science",
-    issuer: "IIT", 
-    issuingDate: "February 2025",
-    category: "gate",
-    image: "certificates/gate/gate-2025-ds.png",
-    hasVerify: false
-  },
-  {
     name: "NASA Space Apps Challenge",
     issuer: "NASA",
     issuingDate: "October 2024",
